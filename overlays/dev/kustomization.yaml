@@ -2,9 +2,10 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - deployment.yaml
-  - service.yaml
+- deployment.yaml
+- service.yaml
 
 images:
-  - name: ghcr.io/marcellass-gitops-lab/demo-app
-    newTag: v1.0.0
+- name: ghcr.io/marcellass-gitops-lab/demo-app
+  newName: ghcr.io/marcellass-gitops-lab/demo-app
+  newTag: e2accbf
