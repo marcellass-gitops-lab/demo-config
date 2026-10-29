@@ -8,4 +8,4 @@ resources:
 images:
 - name: ghcr.io/marcellass-gitops-lab/demo-app
   newName: ghcr.io/marcellass-gitops-lab/demo-app
-  newTag: e2accbf
+  newTag: fe28bda
